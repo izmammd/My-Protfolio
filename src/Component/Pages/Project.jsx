@@ -124,6 +124,8 @@ export default function Projects() {
 
                                     <a
                                         href={project.live}
+                                        target="_blank"
+                                        rel="noreferrer"
                                         className="btn btn-outline-light"
                                     >
                                         <FaExternalLinkAlt className="me-2" />
