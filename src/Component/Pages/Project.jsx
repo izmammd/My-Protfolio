@@ -18,7 +18,7 @@ export default function Projects() {
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/StudentHubVideo_udmjpl.mp4",
             tech: "React.js • Node.js • Express.js • MongoDB • JWT • Bootstrap",
             github: "https://github.com/izmammd/Student_Hub",
-            live: "https://student-7wk72yjr8-syuv3529-7389s-projects.vercel.app/login",
+            live: "https://student-pb99x1fvp-syuv3529-7389s-projects.vercel.app/login",
             points: [
                 "Developed a full-stack Student Management System.",
                 "JWT Authentication & Authorization.",
@@ -47,7 +47,7 @@ export default function Projects() {
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/Text_to_speech_cmzv76.mp4",
             tech: "React.js • JavaScript • Bootstrap • Web Speech API",
             github: "https://github.com/izmammd/Text-to-Speak-Convertor.git",
-            live: "https://text-to-speak-convertor-cr2m8ergm-syuv3529-7389s-projects.vercel.app/",
+            live: "text-to-speak-convertor-d9ihn50dt-syuv3529-7389s-projects.vercel.app",
             points: [
                 "Developed a text-to-speech converter using React.js.",
                 "Implemented Web Speech API for converting text into voice.",
