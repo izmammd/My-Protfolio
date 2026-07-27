@@ -62,7 +62,7 @@ export default function Projects() {
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/v1785103885/News-video_pcavk3.mp4",
             tech: "React.js • JavaScript • Bootstrap • News API • Axios/Fetch • Lazy Loading",
             github: "https://github.com/izmammd/News.git",
-            live: "https://your-news-app.vercel.app",
+            live: "https://news-peach-nine.vercel.app/",
             points: [
                 "Developed a real-time news application using React.js and News API.",
                 "Implemented dynamic news search functionality by keywords.",
