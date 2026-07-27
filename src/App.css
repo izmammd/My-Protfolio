@@ -1,3 +1,15 @@
+.card-hover {
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.card-hover:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.15);
+}
+
+
+
 /* .app-bg {
   min-height: 100vh;
   background: linear-gradient(
