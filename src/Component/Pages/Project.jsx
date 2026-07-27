@@ -43,6 +43,21 @@ export default function Projects() {
         },
 
         {
+            title: "Text To Speech Converter",
+            video: "https://res.cloudinary.com/ajs7xnt4/video/upload/Text_to_speech_cmzv76.mp4",
+            tech: "React.js • JavaScript • Bootstrap • Web Speech API",
+            github: "https://github.com/izmammd/Text-to-Speak-Convertor.git",
+            live: "https://text-to-speak-convertor-cr2m8ergm-syuv3529-7389s-projects.vercel.app/",
+            points: [
+                "Developed a text-to-speech converter using React.js.",
+                "Implemented Web Speech API for converting text into voice.",
+                "Added multiple voice selection with browser-supported voices.",
+                "Created a responsive Bootstrap-based user interface.",
+                "Allows users to enter text and listen to generated speech.",
+            ],
+        },
+
+        {
             title: "To Do List",
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/ToDoListVideo_jxpedv.mp4",
             tech: "HTML • CSS • JavaScript",
