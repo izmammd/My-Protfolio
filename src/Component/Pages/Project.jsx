@@ -58,6 +58,23 @@ export default function Projects() {
         },
 
         {
+            title: "News Coming",
+            video: "https://res.cloudinary.com/ajs7xnt4/video/upload/v1785103885/News-video_pcavk3.mp4",
+            tech: "React.js • JavaScript • Bootstrap • News API • Axios/Fetch • Lazy Loading",
+            github: "https://github.com/izmammd/News.git",
+            live: "https://your-news-app.vercel.app",
+            points: [
+                "Developed a real-time news application using React.js and News API.",
+                "Implemented dynamic news search functionality by keywords.",
+                "Integrated category-based news filtering like Sports, Politics, Health, and Entertainment.",
+                "Fetched and displayed live news articles using REST API integration.",
+                "Implemented React Lazy Loading with Suspense for optimized performance.",
+                "Created responsive news cards with Bootstrap UI.",
+                "Handled API errors and missing data using conditional rendering.",
+            ],
+        },
+
+        {
             title: "To Do List",
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/ToDoListVideo_jxpedv.mp4",
             tech: "HTML • CSS • JavaScript",
