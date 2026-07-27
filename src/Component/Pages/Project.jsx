@@ -18,7 +18,7 @@ export default function Projects() {
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/StudentHubVideo_udmjpl.mp4",
             tech: "React.js • Node.js • Express.js • MongoDB • JWT • Bootstrap",
             github: "https://github.com/izmammd/Student_Hub",
-            live: "#",
+            live: "https://student-7wk72yjr8-syuv3529-7389s-projects.vercel.app/login",
             points: [
                 "Developed a full-stack Student Management System.",
                 "JWT Authentication & Authorization.",
@@ -33,7 +33,7 @@ export default function Projects() {
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/RPSGameVideo_x6zfst.mp4",
             tech: "HTML • CSS • JavaScript",
             github: "https://github.com/izmammd/stone-paper-scissor",
-            live: "#",
+            live: "https://stone-paper-scissor-ar3z9cksy-syuv3529-7389s-projects.vercel.app/",
             points: [
                 "Interactive browser game.",
                 "Dynamic score board.",
@@ -47,7 +47,7 @@ export default function Projects() {
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/ToDoListVideo_jxpedv.mp4",
             tech: "HTML • CSS • JavaScript",
             github: "https://github.com/izmammd/To-Do-List",
-            live: "#",
+            live: "https://to-do-list-d26rpc5c9-syuv3529-7389s-projects.vercel.app/",
             points: [
                 "Add/Edit/Delete tasks.",
                 "Local Storage support.",
