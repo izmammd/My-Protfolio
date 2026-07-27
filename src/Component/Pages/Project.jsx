@@ -18,7 +18,7 @@ export default function Projects() {
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/StudentHubVideo_udmjpl.mp4",
             tech: "React.js • Node.js • Express.js • MongoDB • JWT • Bootstrap",
             github: "https://github.com/izmammd/Student_Hub",
-            live: "https://student-ixod68oxy-syuv3529-7389s-projects.vercel.app",
+            live: "https://student-ixod68oxy-syuv3529-7389s-projects.vercel.app/login",
             points: [
                 "Developed a full-stack Student Management System.",
                 "JWT Authentication & Authorization.",
