@@ -7,15 +7,22 @@ export default function About() {
 
             <h1 className="text-white text-center fw-bold mt-4">About Me</h1>
 
-            <div className="p-5">
+            <div className="p-4 ">
 
-                <div className="row align-items-center my-4">
+                <div className="row align-items-center g-4">
 
                     {/* Left */}
 
                     <div className="col-lg-4 text-center">
 
-                        <img src="https://res.cloudinary.com/ajs7xnt4/image/upload/f_auto,q_auto/avtar-img_ceuqpf" alt="Profile" className="card-hover img-top shadow rounded-pill border-2" />
+                        <img className="card-hover shadow rounded-circle border border-2"
+                            style={{
+                                height: "320px",
+                                width: "320px",
+                                objectFit: "cover"
+                            }}
+                            src="https://res.cloudinary.com/ajs7xnt4/image/upload/v1785465790/my_photo_xtvk5p.png"
+                            alt="Profile" />
 
                     </div>
 
@@ -31,12 +38,12 @@ export default function About() {
                             MERN Stack Developer
                         </h5>
 
-                        <p className="text-gray fs-5">
-                            I am a passionate MERN Stack Developer with
-                            practical experience in designing and developing
-                            responsive web applications using modern
-                            JavaScript technologies.
+                        <p className="text-light fs-5">
+                            I'm a MERN Stack Developer with practical experience in
+                            designing and developing responsive, secure, and scalable
+                            full-stack web applications.
                         </p>
+
 
                         <p className="text-gray">
                             I completed my Bachelor of Technology in Computer
@@ -51,6 +58,29 @@ export default function About() {
                             applications with clean UI and secure backend
                             architecture.
                         </p>
+
+                        <div className="mt-4">
+
+                            <h4 className="text-warning">
+                                Education
+                            </h4>
+
+                            <ul className="text-light">
+                                <li>B.Tech in Computer Science & Engineering</li>
+                                <li>MERN Stack Training - JSpiders, Bangalore</li>
+                            </ul>
+
+                            <h4 className="text-warning mt-4">
+                                Career Objective
+                            </h4>
+
+                            <p className="text-light">
+                                Seeking an opportunity as a MERN Stack Developer where I can apply my
+                                technical skills, contribute to real-world projects, and continuously
+                                grow as a software engineer.
+                            </p>
+
+                        </div>
 
                         <div className="mt-4">
 
@@ -74,4 +104,4 @@ export default function About() {
 
         </section>
     );
-}
+} 

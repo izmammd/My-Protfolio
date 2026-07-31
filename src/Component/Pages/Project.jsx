@@ -18,7 +18,7 @@ export default function Projects() {
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/StudentHubVideo_udmjpl.mp4",
             tech: "React.js • Node.js • Express.js • MongoDB • JWT • Bootstrap",
             github: "https://github.com/izmammd/Student_Hub",
-            live: "https://student-ixod68oxy-syuv3529-7389s-projects.vercel.app/login",
+            live: "https://student-hub-frontend-n5it.onrender.com",
             points: [
                 "Developed a full-stack Student Management System.",
                 "JWT Authentication & Authorization.",
@@ -103,7 +103,7 @@ export default function Projects() {
                         className="p-4 mb-5"
                     >
 
-                        <div className="row align-items-center shadow-lg">
+                        <div className="card-hover row align-items-center shadow-lg">
 
                             <div className="col-lg-4">
 

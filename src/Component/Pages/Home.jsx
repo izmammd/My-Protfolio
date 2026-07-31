@@ -29,29 +29,49 @@ export default function Home() {
                     </h4>
 
                     <p className="text-light fs-5 mt-4">
-                        I am a passionate MERN Stack Developer with hands-on
-                        experience in building responsive, secure, and
-                        user-friendly web applications using React.js,
-                        Node.js, Express.js, and MongoDB.
+                        I am a passionate MERN Stack Developer specializing in
+                        building secure, scalable, and responsive web applications
+                        using React.js, Node.js, Express.js, and MongoDB.
                     </p>
 
                     <p className="text-light">
-                        I completed my B.Tech in Computer Science &
-                        Engineering and successfully completed MERN Stack
-                        training from JSpiders, Bangalore.
+                        I have hands-on experience in developing full-stack
+                        applications with JWT Authentication, REST APIs,
+                        Redux Toolkit, TanStack Query, and MongoDB Atlas.
+                        I enjoy solving real-world problems through clean,
+                        efficient, and user-friendly software solutions.
                     </p>
+
+                    <div className="row text-center mt-4">
+
+                        <div className="col-4">
+                            <h2 className="text-warning fw-bold">6+</h2>
+                            <small className="text-light">Projects</small>
+                        </div>
+
+                        <div className="col-4">
+                            <h2 className="text-warning fw-bold">10+</h2>
+                            <small className="text-light">Technologies</small>
+                        </div>
+
+                        <div className="col-4">
+                            <h2 className="text-warning fw-bold">Fresher</h2>
+                            <small className="text-light">Open to Work</small>
+                        </div>
+
+                    </div>
 
                     {/* Buttons */}
 
                     <div className="d-flex flex-wrap gap-3 mt-4">
 
-                        <a href="#projects" className="btn btn-main" >
+                        <a href="#projects" className="btn btn-main btn-warning" >
                             View Projects
                         </a>
 
 
                         <a href="#contact" className="btn btn-outline-light btn-outline-main" >
-                            Hire Me
+                            Let's Connect
                         </a>
 
                         <a href="https://drive.google.com/file/d/1-iNuGeY3QMIA8xNoA3QHcKe8XjPA1eIW/view?usp=sharing"
@@ -65,9 +85,45 @@ export default function Home() {
 
                     </div>
 
+                    <div className="mt-5">
+
+                        <h5 className="text-warning mb-3">
+                            Tech Stack
+                        </h5>
+
+                        <div className="d-flex flex-wrap gap-2">
+
+                            <span className="badge bg-primary">React</span>
+
+                            <span className="badge bg-success">Node.js</span>
+
+                            <span className="badge bg-success">Express</span>
+
+                            <span className="badge bg-success">MongoDB</span>
+
+                            <span className="badge bg-warning text-dark">JavaScript</span>
+
+                            <span className="badge bg-danger">Redux Toolkit</span>
+
+                            <span className="badge bg-info text-dark">
+                                TanStack Query
+                            </span>
+
+                            <span className="badge bg-secondary">
+                                Git
+                            </span>
+
+                            <span className="badge bg-dark">
+                                GitHub
+                            </span>
+
+                        </div>
+
+                    </div>
+
                     {/* Social Icons */}
 
-                    <div className="d-flex gap-4 mt-5">
+                    <div className="d-flex gap-4 my-4">
 
                         <a href="https://github.com/izmammd" target="_blank" rel="noreferrer" >
                             <FaGithub size={34} color="white" />
@@ -89,7 +145,15 @@ export default function Home() {
 
                 <div className=" col-lg-5 text-center mt-5 mt-lg-0">
 
-                    <img className="card-hover img-top shadow-lg h-75 w-75 rounded border border-2  " src = "https://www.upwork.com/mc/documents/skills-abilities-freelancer-portfolio.jpg" alt="Mohammad Izmam" />
+                    <img className="card-hover img-top shadow-lg border border-2"
+                    style={{
+                        height: "300px",
+                        width: "500px",
+                        objectFit:"cover"
+                    }}
+                        src="https://res.cloudinary.com/ajs7xnt4/image/upload/v1785465762/izmam-5_u7w5td.png"
+                        alt="Mohammad Izmam"
+                    />
 
                 </div>
 

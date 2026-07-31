@@ -6,20 +6,44 @@ import { SiJavascript, SiExpress, SiMongodb, SiMysql, SiPostman } from "react-ic
 
 export default function Experience() {
 
-    const skills = [
-        { icon: <FaHtml5 size={50} color="#E34F26" />, name: "HTML" },
-        { icon: <FaCss3Alt size={50} color="#1572B6" />, name: "CSS" },
-        { icon: <FaBootstrap size={50} color="#7952B3" />, name: "Bootstrap" },
-        { icon: <SiJavascript size={50} color="#F7DF1E" />, name: "JavaScript" },
-        { icon: <FaReact size={50} color="#61DAFB" />, name: "React.js" },
-        { icon: <FaNodeJs size={50} color="#3C873A" />, name: "Node.js" },
-        { icon: <SiExpress size={50} />, name: "Express.js" },
-        { icon: <SiMongodb size={50} color="#4DB33D" />, name: "MongoDB" },
-        { icon: <SiMysql size={50} color="#00758F" />, name: "MySQL" },
-        { icon: <FaGitAlt size={50} color="#F05032" />, name: "Git" },
-        { icon: <FaGithub size={50} />, name: "GitHub" },
-        { icon: <FaLinux size={50} color="#FCC624" />, name: "Linux" },
-        { icon: <SiPostman size={50} color="#FF6C37" />, name: "Postman" },
+    const skillCategories = [
+        {
+            title: "Frontend",
+            color: "text-info",
+            items: [
+                { icon: <FaHtml5 size={32} color="#E34F26" />, name: "HTML" },
+                { icon: <FaCss3Alt size={32} color="#1572B6" />, name: "CSS" },
+                { icon: <FaBootstrap size={32} color="#7952B3" />, name: "Bootstrap" },
+                { icon: <SiJavascript size={32} color="#F7DF1E" />, name: "JavaScript" },
+                { icon: <FaReact size={32} color="#61DAFB" />, name: "React.js" },
+            ],
+        },
+        {
+            title: "Backend",
+            color: "text-success",
+            items: [
+                { icon: <FaNodeJs size={32} color="#3C873A" />, name: "Node.js" },
+                { icon: <SiExpress size={32} />, name: "Express.js" },
+            ],
+        },
+        {
+            title: "Database",
+            color: "text-warning",
+            items: [
+                { icon: <SiMongodb size={32} color="#4DB33D" />, name: "MongoDB" },
+                { icon: <SiMysql size={32} color="#00758F" />, name: "MySQL" },
+            ],
+        },
+        {
+            title: "Tools",
+            color: "text-warning",
+            items: [
+                { icon: <FaGitAlt size={32} color="#F05032" />, name: "Git" },
+                { icon: <FaGithub size={32} />, name: "GitHub" },
+                { icon: <FaLinux size={32} color="#FCC624" />, name: "Linux" },
+                { icon: <SiPostman size={32} color="#FF6C37" />, name: "Postman" },
+            ],
+        },
     ];
 
     return (
@@ -37,30 +61,21 @@ export default function Experience() {
 
                     <div className="p-4">
 
-                        <h3 className="text-warning mb-4">Technical Skills</h3>
+                        <h3 className="text-warning mb-3">Technical Skills</h3>
 
-                        <div className="row">
-
-                            {
-                                skills.map((skill, index) => (
-
-                                    <div className="col-4 text-center mb-4" key={index} >
-
-                                        <div
-                                        // style={{
-                                        //     fontSize: "50px",
-                                        // }}
-                                        >
-                                            {skill.icon}
+                        {skillCategories.map((category, index) => (
+                            <div key={index} className="mb-2">
+                                <h5 className={`fw-bold ${category.color} mb-2`}>{category.title}</h5>
+                                <div className="row g-2">
+                                    {category.items.map((skill, skillIndex) => (
+                                        <div className="col-4 text-center mb-2" key={skillIndex}>
+                                            <div>{skill.icon}</div>
+                                            <p className="text-white mt-1 mb-0 small">{skill.name}</p>
                                         </div>
-
-                                        <p className="text-white mt-2">{skill.name}</p>
-
-                                    </div>
-
-                                ))}
-
-                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
 
                     </div>
 

@@ -116,7 +116,7 @@ export default function Contact() {
 
                             <textarea rows="6" name="message" className="form-control mb-4" placeholder="Your Message" required />
 
-                            <button className="btn btn-main" type="submit" required >Send Message</button>
+                            <button className="btn btn-main btn-success" type="submit" required >Send Message</button>
 
                         </form>
 

@@ -10,7 +10,7 @@ export default function Navbar() {
             <div className="container">
 
                 <a href="#home" className="navbar-brand fw-bold fs-2 text-warning" >
-                    Portfolio
+                    MI Portfolio
                 </a>
 
                 <button className="btn btn-primary rounded navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
