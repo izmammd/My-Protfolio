@@ -4,45 +4,48 @@ export default function Navbar() {
         <nav
             className="navbar navbar-expand-lg sticky-top shadow-lg border-bottom"
             style={{
-                 background: "linear-gradient(to right, #0f172a, #1e3a8a)", backdropFilter: "blur(12px)"
-                }}
+                background: "linear-gradient(to right, #0f172a, #1e3a8a)", backdropFilter: "blur(12px)"
+            }}
         >
             <div className="container">
 
                 <a href="#home" className="navbar-brand fw-bold fs-2 text-warning" >
-                    MI Portfolio
+                    Portfolio
                 </a>
 
-                <button className="btn btn-primary rounded navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
-                    <span className="navbar-toggler-icon"></span>
+                <button className="btn btn-primary rounded navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" >
+                    <span className="navbar-toggler-icon "></span>
                 </button>
 
 
-                <div className="collapse navbar-collapse" >
+                <div className="collapse navbar-collapse" id="navbarNav">
 
                     <ul className="navbar-nav ms-auto">
 
-                        <li>
+                        <li className="nav-item">
                             <a href="#home" className="nav-link px-3 text-white" >Home</a>
                         </li>
 
 
-                        <li>
+                        <li className="nav-item">
                             <a href="#about" className="nav-link px-3 text-white">About</a>
                         </li>
 
 
-                        <li>
+                        <li className="nav-item">
                             <a href="#experience" className="nav-link px-3 text-white">Experience</a>
                         </li>
 
 
-                        <li>
+                        <li className="nav-item">
                             <a href="#projects" className="nav-link px-3 text-white" >Projects</a>
                         </li>
 
 
-                        <li>
+                        <li className="nav-item">
                             <a href="#contact" className="nav-link px-3 text-white" >Contact</a>
                         </li>
 

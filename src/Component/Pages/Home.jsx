@@ -71,7 +71,7 @@ export default function Home() {
 
 
                         <a href="#contact" className="btn btn-outline-light btn-outline-main" >
-                            Let's Connect
+                            Contact Me
                         </a>
 
                         <a href="https://drive.google.com/file/d/1-iNuGeY3QMIA8xNoA3QHcKe8XjPA1eIW/view?usp=sharing"
