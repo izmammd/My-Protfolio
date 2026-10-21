@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from "react-icons/fa";
 
 // import izmamImg from "../../assets/izmam.jpeg";

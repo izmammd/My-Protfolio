@@ -80,7 +80,7 @@ export default function Contact() {
 
                             <p className="text-white">
                                 <FaEnvelope className="me-3 text-warning" />
-                                izmammd763@gmail.Component.
+                                izmammd763@gmail.com
                             </p>
 
                             <p className="text-white">
