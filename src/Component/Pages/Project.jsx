@@ -14,6 +14,20 @@ export default function Projects() {
 
     const projects = [
         {
+            title: "SkillUp AI",
+            video: "https://ik.imagekit.io/mhaetgt1d/ai%20interview%20videos.mp4",
+            tech: "React.js • Node.js • Express.js • MongoDB • Bootstrap • AI",
+            github: "https://github.com/izmammd/ai-interview.git",
+            live: "https://ai-interview-1-l14e.onrender.com/",
+            points: [
+                "AI-based interview question generation.",
+                "JWT authentication with secure HTTP cookies.",
+                "Practice interviews based on job role and experience level.",
+                "Manage interview sessions and save interview questions.",
+                "Responsive UI with React.js and Bootstrap.",
+            ],
+        },
+        {
             title: "Student Hub",
             video: "https://res.cloudinary.com/ajs7xnt4/video/upload/StudentHubVideo_udmjpl.mp4",
             tech: "React.js • Node.js • Express.js • MongoDB • JWT • Bootstrap",
