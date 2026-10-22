@@ -13,7 +13,7 @@ export default function About() {
 
                     {/* Left */}
 
-                    <div className="col-lg-4 text-center">
+                    <div className="col-lg-4 text-center container-fluid">
 
                         <img className="card-hover shadow rounded-circle border border-2"
                             style={{
@@ -88,7 +88,7 @@ export default function About() {
                                 href="https://drive.google.com/file/d/1-iNuGeY3QMIA8xNoA3QHcKe8XjPA1eIW/view?usp=sharing"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="btn btn-outline-light text-light fw-bold"
+                                className="btn btn-outline-light fw-bold"
                             >
                                 <FaDownload className="me-2" />
                                 Download Resume

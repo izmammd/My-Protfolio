@@ -142,12 +142,13 @@ export default function Home() {
 
                 {/* Right Side */}
 
-                <div className=" col-lg-5 text-center mt-5 mt-lg-0">
+                <div className="col-12 col-lg-5 text-center mt-5 mt-lg-0">
 
                     <img className="card-hover img-top shadow-lg border border-2"
                     style={{
                         height: "300px",
-                        width: "500px",
+                        width: "100%",
+                        maxWidth: "500px",
                         objectFit:"cover"
                     }}
                         src="https://res.cloudinary.com/ajs7xnt4/image/upload/v1785465762/izmam-5_u7w5td.png"
