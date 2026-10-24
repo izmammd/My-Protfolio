@@ -18,7 +18,8 @@ export default function About() {
                         <img className="card-hover shadow rounded-circle border border-2"
                             style={{
                                 height: "320px",
-                                width: "320px",
+                                width: "100%",
+                                maxWidth:"320px",
                                 objectFit: "cover"
                             }}
                             src="https://res.cloudinary.com/ajs7xnt4/image/upload/v1785465790/my_photo_xtvk5p.png"
